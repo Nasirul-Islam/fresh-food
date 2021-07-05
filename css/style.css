@@ -1,5 +1,43 @@
 /* Order part start */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.order_section div {
+    width: 40%;
+    float: left;
+    height: 500px;
+    margin-left: 8%;
+}
+.order_content {
+    margin-top: 100px;
+}
+.order_content h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+}
+.order_content span {
+    color: orange;
+}
+.order_content p {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(31, 29, 29);
+    margin-bottom: 45px;
+}
 
+.order_content a {
+    text-decoration: none;
+    background: linear-gradient(45deg,orange, tomato);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+
+.order_image img {
+    width: 100%;
+}
 /* Order part end */
 
 /* first part start */
